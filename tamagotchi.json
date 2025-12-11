@@ -2,6 +2,7 @@
     "tamagotchi": [
         {
             "name": "Planty",
+            "icon": "planty-idle7.gif",
             "hungerRate": 1,
             "energyRate": 0,
             "happinessRate": 2,
@@ -75,6 +76,7 @@
         },
         {
             "name": "Doggo",
+            "icon": "doggo-happy.gif",
             "hungerRate": 5,
             "energyRate": 2,
             "happinessRate": 1,
