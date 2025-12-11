@@ -1,0 +1,61 @@
+{
+    "tamagotchi": [
+        {
+            "name": "Planty",
+            "hungerRate": 1,
+            "energyRate": 0,
+            "happinessRate": 2,
+            "buttons": [
+                {
+                    "name": "Water _",
+                    "hungerChange": -10
+                },
+                {
+                    "name": "Sing to _",
+                    "happinessChange": 10
+                }
+            ],
+            "click": {
+                "happinessChange": 0
+            },
+            "animation": "*TODO*",
+            "images": [
+                "*TODO*"
+            ]
+        },
+        {
+            "name": "Doggo",
+            "hungerRate": 5,
+            "energyRate": 2,
+            "happinessRate": 1,
+            "buttons": [
+                {
+                    "name": "Feed _",
+                    "hungerChange": -20,
+                    "energyChange": -2
+                },
+                {
+                    "name": "Play with _",
+                    "happinessChange": 15,
+                    "energyChange": -10
+                },
+                {
+                    "name": "Put _ to sleep",
+                    "energyChange": 20
+                }
+            ],
+            "click": {
+                "happinessChange": 2
+            },
+            "animation": "*TODO*",
+            "images": [
+                "doggo-dead.png",
+                "doggo-happy.gif",
+                "doggo-idle.gif",
+                "doggo-petted.gif",
+                "doggo-sad.gif",
+                "doggo-waiting.gif"
+            ]
+        }
+    ]
+}
