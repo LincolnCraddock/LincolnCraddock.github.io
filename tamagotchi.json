@@ -18,9 +18,59 @@
             "click": {
                 "happinessChange": 0
             },
-            "animation": "*TODO*",
-            "images": [
-                "*TODO*"
+            "animation": [
+                {
+                    "image": "planty-idle1.gif",
+                    "conditions": [
+                        { "var": "age", "lt": 10 }
+                    ]
+                },
+                {
+                    "image": "planty-idle2.gif",
+                    "conditions": [
+                        { "var": "age", "lt": 20 }
+                    ]
+                },
+                {
+                    "image": "planty-idle3.gif",
+                    "conditions": [
+                        { "var": "age", "lt": 30 }
+                    ]
+                },
+                {
+                    "image": "planty-idle4.gif",
+                    "conditions": [
+                        { "var": "age", "lt": 40 }
+                    ]
+                },
+                {
+                    "image": "planty-idle5.gif",
+                    "conditions": [
+                        { "var": "age", "lt": 50 }
+                    ]
+                },
+                {
+                    "image": "planty-idle6.gif",
+                    "conditions": [
+                        { "var": "age", "lt": 70 }
+                    ]
+                },
+                {
+                    "image": "planty-idle7.gif",
+                    "conditions": [
+                        { "var": "age", "lt": 90 }
+                    ]
+                },
+                {
+                    "image": "planty-idle8.gif",
+                    "conditions": [
+                        { "var": "age", "lt": 100 }
+                    ]
+                },
+                {
+                    "image": "planty-idle9.gif",
+                    "conditions": []
+                }
             ]
         },
         {
@@ -47,14 +97,41 @@
             "click": {
                 "happinessChange": 2
             },
-            "animation": "*TODO*",
-            "images": [
-                "doggo-dead.png",
-                "doggo-happy.gif",
-                "doggo-idle.gif",
-                "doggo-petted.gif",
-                "doggo-sad.gif",
-                "doggo-waiting.gif"
+            "animation": [
+                {
+                    "image": "doggo-dead.png",
+                    "conditions": [
+                        { "var": "isAlive", "eq": false }
+                    ]
+                },
+                {
+                    "image": "doggo-petted.gif",
+                    "conditions": [
+                        { "var": "isClicked", "eq": true }
+                    ]
+                },
+                {
+                    "image": "doggo-waiting.gif",
+                    "conditions": [
+                        { "var": "isHoveredOver", "eq": true }
+                    ]
+                },
+                {
+                    "image": "doggo-happy.gif",
+                    "conditions": [
+                        { "var": "happiness", "gt": 50 }
+                    ]
+                },
+                {
+                    "image": "doggo-sad.gif",
+                    "conditions": [
+                        { "var": "happiness", "lt": 20 }
+                    ]
+                },
+                {
+                    "image": "doggo-idle.gif",
+                    "conditions": []
+                }
             ]
         }
     ]
